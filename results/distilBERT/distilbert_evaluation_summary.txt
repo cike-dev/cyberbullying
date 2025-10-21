@@ -1,0 +1,90 @@
+================================================================================
+MULTI-DATASET EVALUATION REPORT
+================================================================================
+Evaluation Date: 2025-09-15 04:52:16
+Model Path: cike-dev/Distilbert_toxic
+Number of Datasets: 5
+Split Used: test
+================================================================================
+
+Dataset: cike-dev/gab
+Samples: 2,000
+Accuracy: 0.8270
+Weighted F1 Score: 0.8247
+Evaluation Time: 26.5s
+
+Detailed Metrics:
+  Normal - Precision: 0.7598, Recall: 0.9482, F1: 0.8436
+  Toxic  - Precision: 0.9339, Recall: 0.7096, F1: 0.8065
+  Macro Avg - Precision: 0.8469, Recall: 0.8289, F1: 0.8250
+
+Confusion Matrix: /content/drive/MyDrive/Colab Notebooks/Cyberbullying/tests/distilBERT/distilbert_cm_gab.png
+----------------------------------------
+
+Dataset: cike-dev/olid
+Samples: 2,000
+Accuracy: 0.8450
+Weighted F1 Score: 0.8437
+Evaluation Time: 17.2s
+
+Detailed Metrics:
+  Normal - Precision: 0.7856, Recall: 0.9421, F1: 0.8567
+  Toxic  - Precision: 0.9305, Recall: 0.7510, F1: 0.8312
+  Macro Avg - Precision: 0.8580, Recall: 0.8465, F1: 0.8440
+
+Confusion Matrix: /content/drive/MyDrive/Colab Notebooks/Cyberbullying/tests/distilBERT/distilbert_cm_olid.png
+----------------------------------------
+
+Dataset: cike-dev/hatexplain
+Samples: 2,000
+Accuracy: 0.8425
+Weighted F1 Score: 0.8406
+Evaluation Time: 18.3s
+
+Detailed Metrics:
+  Normal - Precision: 0.9283, Recall: 0.7368, F1: 0.8215
+  Toxic  - Precision: 0.7875, Recall: 0.9449, F1: 0.8591
+  Macro Avg - Precision: 0.8579, Recall: 0.8408, F1: 0.8403
+
+Confusion Matrix: /content/drive/MyDrive/Colab Notebooks/Cyberbullying/tests/distilBERT/distilbert_cm_hatexplain.png
+----------------------------------------
+
+Dataset: cike-dev/stormfront
+Samples: 2,000
+Accuracy: 0.8340
+Weighted F1 Score: 0.8304
+Evaluation Time: 17.9s
+
+Detailed Metrics:
+  Normal - Precision: 0.7576, Recall: 0.9809, F1: 0.8549
+  Toxic  - Precision: 0.9732, Recall: 0.6879, F1: 0.8061
+  Macro Avg - Precision: 0.8654, Recall: 0.8344, F1: 0.8305
+
+Confusion Matrix: /content/drive/MyDrive/Colab Notebooks/Cyberbullying/tests/distilBERT/distilbert_cm_stormfront.png
+----------------------------------------
+
+Dataset: cike-dev/tdavidson
+Samples: 2,000
+Accuracy: 0.9520
+Weighted F1 Score: 0.9520
+Evaluation Time: 26.2s
+
+Detailed Metrics:
+  Normal - Precision: 0.9733, Recall: 0.9278, F1: 0.9501
+  Toxic  - Precision: 0.9331, Recall: 0.9754, F1: 0.9538
+  Macro Avg - Precision: 0.9532, Recall: 0.9516, F1: 0.9519
+
+Confusion Matrix: /content/drive/MyDrive/Colab Notebooks/Cyberbullying/tests/distilBERT/distilbert_cm_tdavidson.png
+----------------------------------------
+
+
+OVERALL SUMMARY:
+✅ Successful evaluations: 5
+❌ Failed evaluations: 0
+📊 Average Accuracy: 0.8601
+📊 Average F1 Score: 0.8583
+📈 Total samples evaluated: 10,000
+
+================================================================================
+DETAILED RESULTS:
+================================================================================

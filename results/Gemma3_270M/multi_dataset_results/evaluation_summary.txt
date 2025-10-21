@@ -1,0 +1,90 @@
+================================================================================
+MULTI-DATASET EVALUATION REPORT
+================================================================================
+Evaluation Date: 2025-09-15 04:42:04
+Model Path: Gemma3ToxicTextClassifier
+Number of Datasets: 5
+Split Used: test
+================================================================================
+
+Dataset: cike-dev/stormfront
+Samples: 2,000
+Accuracy: 0.7450
+Weighted F1 Score: 0.7373
+Evaluation Time: 396.9s
+
+Detailed Metrics:
+  Normal - Precision: 0.6745, Recall: 0.9254, F1: 0.7803
+  Toxic  - Precision: 0.8889, Recall: 0.5720, F1: 0.6961
+  Macro Avg - Precision: 0.7817, Recall: 0.7487, F1: 0.7382
+
+Confusion Matrix: ./multi_dataset_results/gemma3_cm_stormfront.png
+----------------------------------------
+
+Dataset: cike-dev/tdavidson
+Samples: 2,000
+Accuracy: 0.8975
+Weighted F1 Score: 0.8968
+Evaluation Time: 474.6s
+
+Detailed Metrics:
+  Normal - Precision: 0.9272, Recall: 0.8349, F1: 0.8786
+  Toxic  - Precision: 0.8777, Recall: 0.9476, F1: 0.9113
+  Macro Avg - Precision: 0.9024, Recall: 0.8912, F1: 0.8950
+
+Confusion Matrix: ./multi_dataset_results/gemma3_cm_tdavidson.png
+----------------------------------------
+
+Dataset: cike-dev/olid
+Samples: 2,000
+Accuracy: 0.7234
+Weighted F1 Score: 0.7192
+Evaluation Time: 715.8s
+
+Detailed Metrics:
+  Normal - Precision: 0.6499, Recall: 0.8773, F1: 0.7467
+  Toxic  - Precision: 0.8470, Recall: 0.5898, F1: 0.6954
+  Macro Avg - Precision: 0.7485, Recall: 0.7336, F1: 0.7210
+
+Confusion Matrix: ./multi_dataset_results/gemma3_cm_olid.png
+----------------------------------------
+
+Dataset: cike-dev/gab
+Samples: 2,000
+Accuracy: 0.7859
+Weighted F1 Score: 0.7848
+Evaluation Time: 741.4s
+
+Detailed Metrics:
+  Normal - Precision: 0.7332, Recall: 0.8735, F1: 0.7973
+  Toxic  - Precision: 0.8569, Recall: 0.7043, F1: 0.7732
+  Macro Avg - Precision: 0.7951, Recall: 0.7889, F1: 0.7852
+
+Confusion Matrix: ./multi_dataset_results/gemma3_cm_gab.png
+----------------------------------------
+
+Dataset: cike-dev/hatexplain
+Samples: 2,000
+Accuracy: 0.7401
+Weighted F1 Score: 0.7333
+Evaluation Time: 354.8s
+
+Detailed Metrics:
+  Normal - Precision: 0.8217, Recall: 0.5831, F1: 0.6821
+  Toxic  - Precision: 0.6982, Recall: 0.8841, F1: 0.7802
+  Macro Avg - Precision: 0.7600, Recall: 0.7336, F1: 0.7312
+
+Confusion Matrix: ./multi_dataset_results/gemma3_cm_hatexplain.png
+----------------------------------------
+
+
+OVERALL SUMMARY:
+✅ Successful evaluations: 5
+❌ Failed evaluations: 0
+📊 Average Accuracy: 0.7784
+📊 Average F1 Score: 0.7743
+📈 Total samples evaluated: 10,000
+
+================================================================================
+DETAILED RESULTS:
+================================================================================
