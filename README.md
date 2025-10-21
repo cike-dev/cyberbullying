@@ -1,4 +1,4 @@
-# DistilBERT vs Gemma-3 270M for Mobile Cyberbullying Detection
+# DistilBERT vs Gemma-3-270M for Mobile Cyberbullying Detection
 
 ## Overview 
 This study compares two lightweight transformer models — DistilBERT and Gemma-3 270M — for on-device cyberbullying detection on mobile platforms.
